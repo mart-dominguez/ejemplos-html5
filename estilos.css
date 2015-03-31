@@ -39,7 +39,6 @@ nav {
 
 section { 
 	float:left;	
-	background-color: blue;
 	width: 75%;	
 }
 
@@ -48,19 +47,8 @@ section > article{
 	padding-top: 15px;
 	margin-left: 15px;
 	margin-top: 15px;
-	border-color: blue; 	
-	background-color: red;
 	width: 90%;	
 }
-section > article > div{
-	display: inline;
-	width: 50px;
-	background-color: yellow;
-	color: blue;
-	text-align: center;
-    border: 1px solid navy;
-}
-
 
 footer{
 	background-color: #000000;
@@ -107,9 +95,51 @@ li {
 	height: 400px;
 }
 
+div.cuadro{
+	width: 100%;
+	background-color: #00FF00;
+	margin-bottom: 50px;
+}
+span.comun {
+	width: 50px;
+	height: 50px;
+	background-color: #0000FF;
+	display: inline-block;
+}
+
 span.pos_fixed {
     position: fixed;
     top: 150px;
     left: 200px;
     color: red;
+	display: inline-block;
+}
+
+span.pos_relativa{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 50px;
+	background-color: #FF0000;
+	display: inline-block;
+}
+
+span.flotante{
+	width: 100px;
+	height: 50px;
+	float: right;
+	background-color: magenta;
+	display: inline-block;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+span.flotante-izq{
+	width: 100px;
+	height: 50px;
+	float: left;
+	background-color: brown;
+	display: inline-block;
+	margin-left:20px;
+	margin-bottom:20px;
 }
