@@ -97,7 +97,7 @@ li {
 
 div.cuadro{
 	width: 100%;
-	background-color: #00FF00;
+	background-color: #CCCCCC;
 	margin-bottom: 50px;
 }
 span.comun {
@@ -142,4 +142,52 @@ span.flotante-izq{
 	display: inline-block;
 	margin-left:20px;
 	margin-bottom:20px;
+}
+
+
+span.cuadrosTexto {
+	width: 100px;
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #0000FF;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 50px;
+}
+
+
+.clase1 {
+	width: 100px;
+	height: 100px;
+	color: #000000;
+	background-color: #66FFC2;
+	display: inline-block;
+	margin: 15px;
+}
+
+.clase2 {
+	width: 100px;
+	height: 100px;
+	color: #000000;
+	background-color: #FFDB4D;
+	display: inline-block;
+	margin: 15px;
+}
+
+.clase3 {
+	width: 100px;
+	height: 100px;
+	color: #000000;
+	background-color: #5E5EFF;
+	display: inline-block;
+	margin: 15px;
+}
+
+.clase4 {
+	width: 100px;
+	height: 100px;
+	color: #000000;
+	background-color: #FF3385;
+	display: inline-block;
+	margin: 15px;
 }
